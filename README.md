@@ -1,6 +1,6 @@
-# Lotus - (server)
+# Mlo - (server)
 
-> MarketPlace Ecommerce Application
+> Restaurant Management System Application
 
 ## Quick Installation
 
@@ -14,6 +14,12 @@ cp .env.example .env
 ### Install project dependencies
 npm install
 
+### Run migrations
+node ace migration:run
+
+### Run database seeder
+node ace db:seed
+
 ### Initialize development server
 npm run dev
 
@@ -23,4 +29,4 @@ npm start
 
 ### Author
 
-- [Prudence Wanjau](mailto: pruwanjish@gmail.com)
+- [Innocent Maina](mailto: innocentwahome@gmail.com)
